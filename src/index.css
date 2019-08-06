@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.thumbnail {
+  height: 100px;
+}
+
+.celebrities-panel {
+  display: flex;
+}
+
+.celebrity-detail {
+  margin-left: 20px;
+}
+
+nav {
+  background-color: #32c3ff;
+  padding: 5px;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.navlink.active {
+  font-weight: bold;
 }

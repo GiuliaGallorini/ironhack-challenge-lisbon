@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ironhack Challenge
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This repository was made for the Ironhack challenge.
 
-### `npm start`
+You can preview this project here: ...
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The technologies used for this project:
+- React generated with [create-react-app](https://github.com/facebook/create-react-app)
+- [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- [Axios](https://github.com/axios/axios)
+- [Netlify](https://www.netlify.com) to deploy the website
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Commands
 
-### `npm test`
+### Install the project
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To clone the project, you can open the temrinal and type the following command:
+```
+$ git clone https://github.com/GiuliaGallorini/ironhack-challenge-lisbon
+```
 
-### `npm run build`
+To install all the dependencies, go to folder of the project and type the following command:
+```
+$ npm install
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start the project
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+(if necessary, write also to not forget the .env file)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Simply go to folder of the project and type the following command:
+```
+$ npm install
+```
 
-### `npm run eject`
+Then you should see the project running on http://localhost:3000/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Build the project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To build the project, you can type:
+```
+$ npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+It generates a `build` folder ready to be deployed online!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Architecture
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was generated with Create-React-App. It contains the following folders and files:
+- `.vscode/`: for the VS Code settings
+- `build/`: generated with `npm rund build`
+- `node_modules/`: fot the node packages
+- `public/`: for the public files of the REact application
+- `src/`: for the React code
+  - `src/components`: for all the components
+  - `index.js`: the main file of the React application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
